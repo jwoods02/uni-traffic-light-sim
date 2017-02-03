@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/"
+        }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "gradle.plugin.com.palantir:jacoco-coverage:0.4.0"
+//        classpath "com.monits:static-code-analysis-plugin:2.3.4"
+    }
+}
+
+
+group 'TrafficLights'
+version '1.0-SNAPSHOT'
+
+
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'checkstyle'
+//apply plugin: "com.palantir.jacoco-coverage"
+//apply plugin: "com.monits.staticCodeAnalysis"
+
+
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
+
+
+sourceCompatibility = 1.5
+
+mainClassName= "Traffic"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrafficLightController.iml" filepath="$PROJECT_DIR$/.idea/modules/TrafficLightController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrafficLightController_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TrafficLightController_main.iml" group="TrafficLightController" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrafficLightController_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TrafficLightController_test.iml" group="TrafficLightController" />
+    </modules>
+  </component>
+</project>
