@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrafficLightController.iml" filepath="$PROJECT_DIR$/.idea/modules/TrafficLightController.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrafficLightController_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TrafficLightController_main.iml" group="TrafficLightController" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrafficLightController_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TrafficLightController_test.iml" group="TrafficLightController" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/test/test.iml" filepath="$PROJECT_DIR$/src/test/test.iml" />
     </modules>
   </component>
 </project>

@@ -9,7 +9,7 @@ buildscript {
     }
     dependencies {
         classpath "gradle.plugin.com.palantir:jacoco-coverage:0.4.0"
-//        classpath "com.monits:static-code-analysis-plugin:2.3.4"
+        classpath "com.monits:static-code-analysis-plugin:2.3.4"
     }
 }
 
@@ -22,8 +22,8 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'checkstyle'
-//apply plugin: "com.palantir.jacoco-coverage"
-//apply plugin: "com.monits.staticCodeAnalysis"
+apply plugin: "com.palantir.jacoco-coverage"
+apply plugin: "com.monits.staticCodeAnalysis"
 
 
 tasks.withType(FindBugs) {
@@ -34,7 +34,7 @@ tasks.withType(FindBugs) {
 }
 
 
-sourceCompatibility = 1.5
+sourceCompatibility = 1.6
 
 mainClassName= "Traffic"
 

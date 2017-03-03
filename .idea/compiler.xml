@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="TrafficLightController_main" target="1.5" />
-      <module name="TrafficLightController_test" target="1.5" />
+      <module name="TrafficLightController_main" target="1.6" />
+      <module name="TrafficLightController_test" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
