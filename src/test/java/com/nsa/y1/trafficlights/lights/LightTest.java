@@ -1,7 +1,10 @@
-package com.nsa.y1.trafficlights;
+package com.nsa.y1.trafficlights.lights;
 
 import static org.junit.Assert.*;
 
+import com.nsa.y1.trafficlights.lights.Colour;
+import com.nsa.y1.trafficlights.lights.Light;
+import com.nsa.y1.trafficlights.lights.Shape;
 import org.junit.Before;
 import org.junit.Test;
 

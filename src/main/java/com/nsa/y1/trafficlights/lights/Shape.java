@@ -1,4 +1,4 @@
-package com.nsa.y1.trafficlights;
+package com.nsa.y1.trafficlights.lights;
 
 
 public enum Shape {

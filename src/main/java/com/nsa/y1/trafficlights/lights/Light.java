@@ -1,4 +1,4 @@
-package com.nsa.y1.trafficlights;
+package com.nsa.y1.trafficlights.lights;
 
 /**
  * Represents a single light.  It has a shape (round, arrow, etc) and a colour.
